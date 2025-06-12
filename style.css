@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=M+PLUS+2&display=swap');
 
 :root {
     --bgColor: #223344;
@@ -16,12 +16,12 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    font-family: "M PLUS 2", sans-serif;
+    font-family: "M PLUS 1p", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 100%);
-    /* background-image: url('https://bit.ly/3nFVqJh'); */
+    background-image: url('https://i.imgur.com/sTKFqGA.png');
     opacity: 0;
     animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
     animation-fill-mode: forwards;
@@ -43,10 +43,9 @@ body {
 #userName {
     color: var(--accentColor);
     font-size: 1.3rem;
-    font-weight: bold;
+    font-weight: 500;
     line-height: 1.25;
     display: block;
-    font-family: var(--font);
     width: 100%;
     text-align: center;
     text-decoration: none;
@@ -77,6 +76,10 @@ body {
     -webkit-tap-highlight-color: transparent;
 }
 
+.linkicon {
+    padding-right: 7px;
+}
+
 @media (hover: hover) {
     .link:hover {
         background-color: var(--accentColor);
@@ -89,13 +92,24 @@ body {
     color: var(--bgColor);
 }
 
-#hashtag {
+#footer {
     position: relative;
     padding-bottom: 20px;
     color: var(--accentColor);
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    font-weight: 400;
     display: block;
     font-family: var(--font);
+    width: 100%;
+    text-align: center;
+}
+
+#footeranim {
+    position: relative;
+    color: var(--accentColor);
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: block;
     width: 100%;
     text-align: center;
 
