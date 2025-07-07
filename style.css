@@ -76,6 +76,10 @@ body {
     -webkit-tap-highlight-color: transparent;
 }
 
+.deactive {
+    display: none;
+}
+
 .linkicon {
     padding-right: 7px;
 }
