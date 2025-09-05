@@ -73,12 +73,12 @@ window.addEventListener('DOMContentLoaded', () => {
   const ambLink = document.getElementById('songRefAmbient')
   var ambIndex = getRandomInt(songsAmbient.length)
   ambLink.href = songsAmbient[ambIndex].data
-  ambLink.innerHTML = ambLink.innerHTML + songsAmbient[ambIndex].title + ' / ' + songsAmbient[ambIndex].artist
+  ambLink.innerHTML = ambLink.innerHTML + ' - ' + songsAmbient[ambIndex].title + ' / ' + songsAmbient[ambIndex].artist
 
   const heaLink = document.getElementById('songRefHealing')
   var heaIndex = getRandomInt(songsHealing.length)
   heaLink.href = songsHealing[heaIndex].data
-  heaLink.innerHTML = heaLink.innerHTML + songsHealing[heaIndex].title + ' / ' + songsHealing[heaIndex].artist
+  heaLink.innerHTML = heaLink.innerHTML + ' - ' + songsHealing[heaIndex].title + ' / ' + songsHealing[heaIndex].artist
 })
 
 function getRandomInt(max) {
