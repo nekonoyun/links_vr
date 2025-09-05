@@ -12,12 +12,10 @@ function copyToClipboard (tagType, tagValue) {
   if (navigator.clipboard) {
     return navigator.clipboard.writeText(tagValue).then(function () {
       alert(tagType + 'がクリップボードにコピーされました')
-      messageActive()
     })
   } else {
     tagText.select()
     document.execCommand('copy')
     alert(tagType + 'がクリップボードにコピーされました')
-    messageActive()
   }
 }
