@@ -51,6 +51,18 @@ body {
     text-decoration: none;
 }
 
+.avatarBtn {
+    color: var(--accentColor);
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+@media (hover: hover) {
+    .avatarBtn:hover {
+        opacity: 0.70;
+    }
+}
+
 #links {
     max-width: 675px;
     width: auto;
