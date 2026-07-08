@@ -19,3 +19,17 @@ function copyToClipboard (tagType, tagValue) {
     alert(tagType + 'がクリップボードにコピーされました')
   }
 }
+
+const navBtnToMain = document.getElementById('btn_back')
+navBtnToMain.href = 'javascript:void(0);'
+navBtnToMain.addEventListener('click', () => {
+  document.getElementById("worlds").style.display = "none";
+  document.getElementById("links").style.display = "block";
+});
+
+const navBtnToWorlds = document.getElementById('btn_worlds')
+navBtnToWorlds.href = 'javascript:void(0);'
+navBtnToWorlds.addEventListener('click', () => {
+  document.getElementById("links").style.display = "none";
+  document.getElementById("worlds").style.display = "block";
+});

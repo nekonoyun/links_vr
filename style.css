@@ -65,6 +65,42 @@ body {
     margin: 27px auto;
 }
 
+#worlds {
+    max-width: 675px;
+    width: auto;
+    display: block;
+    margin: 27px auto;
+    display: none;
+}
+
+.world {
+    display: flex;
+    overflow: hidden;
+}
+
+.wrldImg {
+    width: 30%;
+    margin-left: 5%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrldImg img {
+    width: 100%;
+}
+
+.wrldInfo {
+    width: 60%;
+    margin-right: 5%;
+    float: left;
+}
+
+.wrldInfo p {
+    font-size: 1.2rem;
+}
+
 .link {
     position: relative;
     background-color: transparent;
