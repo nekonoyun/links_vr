@@ -97,8 +97,32 @@ body {
     float: left;
 }
 
+.wrldInfo h3 {
+    font-size: 1.4rem;
+}
+
 .wrldInfo p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+}
+
+.wrldCat {
+    position: relative;
+    background-color: var(--accentColor);
+    color: var(--bgColor);
+    opacity: 0.8;
+    border: solid var(--accentColor) 1px;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    text-align: center;
+    display: block;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    padding: 10px; /* 17px */
+    text-decoration: none;
+    /* transition: all .25s cubic-bezier(.08, .59, .29, .99); */
+    -webkit-tap-highlight-color: transparent;
 }
 
 @media (max-width: 650px) {
